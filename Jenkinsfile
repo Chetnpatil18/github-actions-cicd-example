@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'npx jest --passWithNoTests'
+                sh 'node node_modules/jest/bin/jest.js --passWithNoTests'
             }
         }
     }
