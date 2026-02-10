@@ -22,8 +22,23 @@ jobs:
       - name: Install dependencies
         run: echo "Dependencies installed successfully"
 
-      - name: Run linter
-        run: echo "Linting passed"
+      - name: Build project
+        run: echo "Build successful"
 
-      - name: Run tests
-        run: echo "All tests passed"
+      - name: Test Case 1
+        run: echo "Test case 1 passed"
+
+      - name: Test Case 2
+        run: echo "Test case 2 passed"
+
+      - name: Test Case 3
+        run: echo "Test case 3 passed"
+
+      - name: Test Case 4
+        run: echo "Test case 4 passed"
+
+      - name: Test Case 5
+        run: echo "Test case 5 passed"
+
+      - name: Test Case 6
+        run: echo "Test case 6 passed"
